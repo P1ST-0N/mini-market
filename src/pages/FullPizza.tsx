@@ -19,7 +19,7 @@ const FullPizza: React.FC = () => {
         const { data } = await axios.get('https://6491fbe22f2c7ee6c2c94115.mockapi.io/shoes/' + id);
         setSneaker(data);
       } catch (error) {
-        alert('Ошибка при получении пиццы!');
+        alert('Помилка при отриманні товару!');
         navigate('/');
       }
     }
@@ -28,14 +28,14 @@ const FullPizza: React.FC = () => {
   }, []);
 
   if (!sneaker) {
-    return <>Загрузка...</>;
+    return <>Loading ...</>;
   }
 
   return (
     <div className="container">
       <img src={sneaker.imageUrl} />
       <h2>{sneaker.title}</h2>
-      <h4>{sneaker.price} ₽</h4>
+      <h4>{sneaker.price} грн</h4>
       <Link to="/">
         <button className="button button--outline button--add">
           <span>Назад</span>
