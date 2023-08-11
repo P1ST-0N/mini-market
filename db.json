@@ -1,0 +1,339 @@
+[
+    {
+        "id": "0",
+        "imageUrl": "https://aspolo.ua/image/cache/catalog/obuv16/muzhskie-krossovki-adidas-hoops-2-belye-s-chernym-88314-1-800x533.jpg",
+        "title": "Adidas Hoops 2.0",
+        "types": [
+            0,
+            1
+        ],
+        "sizes": [
+            31,
+            42,
+            43,
+            45
+        ],
+        "price": 900,
+        "category": 6,
+        "rating": 4.3
+    },
+    {
+        "id": "1",
+        "imageUrl": "https://images.prom.ua/4157852945_serye-muzhskie-krossovki.jpg",
+        "title": "New Balance XC-72",
+        "types": [
+            1
+        ],
+        "sizes": [
+            38,
+            39,
+            40,
+            42
+        ],
+        "price": 1350,
+        "category": 5,
+        "rating": 4.9
+    },
+    {
+        "id": "2",
+        "imageUrl": "https://images.zakupka.com/i3/firms/27/11044/11044548/muzhskie-krossovki-adidas-yeezy-boost-350-shnurki-i-poloska-reflektivnye_62cbfbc06ce1146_500x500_1.webp.jpg",
+        "title": "Adidas Yeezy Boost 350",
+        "types": [
+            0,
+            1
+        ],
+        "sizes": [
+            41,
+            43,
+            45
+        ],
+        "price": 1650,
+        "category": 5,
+        "rating": 4.1
+    },
+    {
+        "id": "3",
+        "imageUrl": "https://kedoff.net/images/product/large/mujskie-krossovki-nike-downshifter-11-cw3411-006-img-4.jpg?v=1652434779",
+        "title": "Nike Downshifter",
+        "types": [
+            0
+        ],
+        "sizes": [
+            38,
+            40,
+            42,
+            43
+        ],
+        "price": 1100,
+        "category": 5,
+        "rating": 4.6
+    },
+    {
+        "id": "4",
+        "imageUrl": "https://images.prom.ua/3143844345_w640_h640_muzhskie-krossovki-nike.jpg",
+        "title": "Nike темно-синие",
+        "types": [
+            0,
+            1
+        ],
+        "sizes": [
+            38,
+            41,
+            42,
+            44
+        ],
+        "price": 1250,
+        "category": 5,
+        "rating": 4.7
+    },
+    {
+        "id": "5",
+        "imageUrl": "https://obutik.ua/image/cache/catalog/OKSANA/muzhskaya/krossovki/2021/krossovki-muzhskie-reebok-kozhanie-krasnie-foto-re0003-800x600_0.jpg",
+        "title": "Reebok",
+        "types": [
+            0,
+            1
+        ],
+        "sizes": [
+            38,
+            42,
+            44
+        ],
+        "price": 1400,
+        "category": 4,
+        "rating": 4.2
+    },
+    {
+        "id": "6",
+        "imageUrl": "https://spraytown.com.ua/wp-content/uploads/2022/01/i_rr3Q6rpSQ.jpg",
+        "title": "Black Blue",
+        "types": [
+            0
+        ],
+        "sizes": [
+            36,
+            38,
+            40
+        ],
+        "price": 850,
+        "category": 2,
+        "rating": 3.9
+    },
+    {
+        "id": "7",
+        "imageUrl": "https://aspolo.ua/image/cache/catalog/obuv18/muzhskiee-krossovki-puma-retaliate-haki-89877-1-800x533.jpg",
+        "title": "Puma Retaliate хаки",
+        "types": [
+            1
+        ],
+        "sizes": [
+            37,
+            39,
+            41,
+            44
+        ],
+        "price": 1200,
+        "category": 3,
+        "rating": 4.4
+    },
+    {
+        "id": "8",
+        "imageUrl": "https://fashion-ua.com.ua/img/uploads/5876/premed/2021-03-09_11_50_25rzodz_med.jpg",
+        "title": "Armani Т-380",
+        "types": [
+            0,
+            1
+        ],
+        "sizes": [
+            38,
+            40,
+            42
+        ],
+        "price": 1000,
+        "category": 1,
+        "rating": 4
+    },
+    {
+        "id": "9",
+        "imageUrl": "https://vsporte.com.ua/image/cache/catalog/product/trop/7/41589951-e1629358141800-1000x1000.jpg",
+        "title": "Adidas Originals Futurepacer",
+        "types": [
+            0
+        ],
+        "sizes": [
+            37,
+            38,
+            40
+        ],
+        "price": 975,
+        "category": 5,
+        "rating": 4.3
+    },
+    {
+        "id": "11",
+        "imageUrl": "https://fashion-ua.com.ua/img/uploads/5972/premed/2021-04-05_15_53_21kcsgp_med.jpg",
+        "title": "Valentino Т-389",
+        "types": [
+            0,
+            1
+        ],
+        "sizes": [
+            37,
+            39,
+            42
+        ],
+        "price": 900,
+        "category": 0,
+        "rating": 4.5
+    },
+    {
+        "id": "12",
+        "imageUrl": "https://pixabay.com/get/g5604d06e59d2ac8b54189c8063f656f84070e03e3daac0172c76917a6967f92724c4ece90b3ef635c755df05f14871547ce65d2ce49d8805c212f84bef506b9e_1280.jpg",
+        "title": "BONA",
+        "types": [
+            0,
+            1
+        ],
+        "sizes": [
+            39,
+            40,
+            42
+        ],
+        "price": 1350,
+        "category": 1,
+        "rating": 5
+    },
+    {
+        "id": "13",
+        "imageUrl": "https://media.md-fashion.com.ua/images/dd/05/40b029f19b424c19bdfeb2434cf6.jpg",
+        "title": "Charged Bandit TR 2 SP",
+        "types": [
+            0,
+            1
+        ],
+        "sizes": [
+            40,
+            41,
+            43,
+            46
+        ],
+        "price": 1650,
+        "category": 0,
+        "rating": 4.1
+    },
+    {
+        "id": "14",
+        "imageUrl": "https://pixabay.com/get/ge88c0d2fb40ab979098577597664cbd0e895952b63371af9bef089e5438b231189e05711942db97275a7e05ba328ca6e053c92e8a5dbc7958f926ca13fe9ef70_1280.jpg",
+        "title": "Red Wing",
+        "types": [
+            0
+        ],
+        "sizes": [
+            38,
+            40,
+            42,
+            44
+        ],
+        "price": 1125,
+        "category": 2,
+        "rating": 4.6
+    },
+    {
+        "id": "15",
+        "imageUrl": "https://images.prom.ua/882702876_w600_h600_882702876.jpg",
+        "title": "New Balance",
+        "types": [
+            0
+        ],
+        "sizes": [
+            39,
+            40,
+            42
+        ],
+        "price": 1250,
+        "category": 1,
+        "rating": 4.7
+    },
+    {
+        "id": "16",
+        "imageUrl": "https://pixabay.com/get/gb9b23ae1a40c8f6901276af100f4370c632bcb7e845f36f02d79c15a491313555323bd0143e377ecaef6e5cd58611b06dbb5330c2937b4490d6c4d5c479780c1_1280.jpg",
+        "title": "Salomon",
+        "types": [
+            0,
+            1
+        ],
+        "sizes": [
+            40,
+            43,
+            44
+        ],
+        "price": 1400,
+        "category": 4,
+        "rating": 4.2
+    },
+    {
+        "id": "17",
+        "imageUrl": "https://pixabay.com/get/gf141bbb6b26b61cd3a70cd812c8645e834ef965b15d9072a631b6215bd805f9fda8a8bc090140c16e7f3f419027b144bc1971097f459c455d5682bc7dd41ed54_1280.jpg",
+        "title": "Timberland",
+        "types": [
+            1
+        ],
+        "sizes": [
+            38,
+            40
+        ],
+        "price": 850,
+        "category": 5,
+        "rating": 3.9
+    },
+    {
+        "id": "18",
+        "imageUrl": "https://pixabay.com/get/g75fc42b32c9c2a136cc3f511ec5c951392cf8aa3f8174991a587c2512455d7ca1400d10dc24edbd1a429056f0517f4eaf12426f3beb33f76f3eefa655e62bab6_1280.png",
+        "title": "Ralf Ringer",
+        "types": [
+            1
+        ],
+        "sizes": [
+            38,
+            40,
+            42,
+            44
+        ],
+        "price": 1200,
+        "category": 5,
+        "rating": 4.4
+    },
+    {
+        "id": "19",
+        "imageUrl": "https://pixabay.com/get/g5447cbf7f5cf50fbcd2250802972467d08cb11689a42d50df98888fc274fcaaec9aa7d849aa4d6e80f30bb283a50784a931c30e3a88d8e8cecbddbc51be61668_1280.png",
+        "title": "Salomon",
+        "types": [
+            0,
+            1
+        ],
+        "sizes": [
+            38,
+            40,
+            42
+        ],
+        "price": 1000,
+        "category": 3,
+        "rating": 4
+    },
+    {
+        "id": "20",
+        "imageUrl": "https://pixabay.com/get/g1e123b87b3dca0554c779e52041fe9c18b5b3d99d620912a554e82fbd2bff96b1c02a7acd3637513f5b8027e3e2acc8172db20b42db9991cd37e77ba55cbdfbf_1280.jpg",
+        "title": "Jack Wolfskin",
+        "types": [
+            1
+        ],
+        "sizes": [
+            37,
+            38,
+            40
+        ],
+        "price": 975,
+        "category": 5,
+        "rating": 4.3
+    }
+]
