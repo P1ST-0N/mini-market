@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { CartItem, CartEmpty } from '../components';
+import { CartItem, CartEmpty } from 'components';
 
-import { selectCart } from '../redux/cart/selectors';
-import { clearItems } from '../redux/cart/slice';
+import { selectCart } from 'redux/cart/selectors';
+import { clearItems } from 'redux/cart/slice';
 
 const Cart: React.FC = () => {
   const dispatch = useDispatch();
@@ -14,7 +14,7 @@ const Cart: React.FC = () => {
   const totalCount = items.reduce((sum: number, item: any) => sum + item.count, 0);
 
   const onClickClear = () => {
-    if (window.confirm('Очистить корзину?')) {
+    if (window.confirm('Почистити корзину?')) {
       dispatch(clearItems());
     }
   };
@@ -88,7 +88,7 @@ const Cart: React.FC = () => {
                 strokeLinejoin="round"></path>
             </svg>
 
-            <span>Очистить корзину</span>
+            <span>Видалити весь товар</span>
           </div>
         </div>
         <div className="content__items">
@@ -100,11 +100,11 @@ const Cart: React.FC = () => {
           <div className="cart__bottom-details">
             <span>
               {' '}
-              Всего пицц: <b>{totalCount} шт.</b>{' '}
+              Всього пар: <b>{totalCount} шт.</b>{' '}
             </span>
             <span>
               {' '}
-              Сумма заказа: <b>{totalPrice} ₽</b>{' '}
+              Сума замовлення: <b>{totalPrice} грн</b>{' '}
             </span>
           </div>
           <div className="cart__bottom-buttons">
@@ -123,10 +123,10 @@ const Cart: React.FC = () => {
                   strokeLinejoin="round"></path>
               </svg>
 
-              <span>Вернуться назад</span>
+              <span>Повернутися назад</span>
             </Link>
             <div className="button pay-btn">
-              <span>Оплатить сейчас</span>
+              <span>Оплатити зараз</span>
             </div>
           </div>
         </div>

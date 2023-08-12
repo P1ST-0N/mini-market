@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { selectCartItemById } from '../../redux/cart/selectors';
-import { CartItem } from '../../redux/cart/types';
-import { addItem } from '../../redux/cart/slice';
+import { selectCartItemById } from 'redux/cart/selectors';
+import { CartItem } from 'redux/cart/types';
+import { addItem } from 'redux/cart/slice';
 
 const typeNames = ['EUR', 'USA'];
 
-type PizzaBlockProps = {
+type SneakerBlockProps = {
   id: string;
   title: string;
   price: number;
@@ -17,7 +17,7 @@ type PizzaBlockProps = {
   rating: number;
 };
 
-export const PizzaBlock: React.FC<PizzaBlockProps> = ({
+export const SneakerBlock: React.FC<SneakerBlockProps> = ({
   id,
   title,
   price,
