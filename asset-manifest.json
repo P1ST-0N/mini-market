@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/mini-market/static/css/main.36caa97d.css",
-    "main.js": "/mini-market/static/js/main.0650d32c.js",
+    "main.js": "/mini-market/static/js/main.fe511fa2.js",
     "Cart.js": "/mini-market/static/js/Cart.3a69a785.chunk.js",
     "FullSneaker.js": "/mini-market/static/js/FullSneaker.53fe8fc5.chunk.js",
     "NotFound.js": "/mini-market/static/js/NotFound.078dc6aa.chunk.js",
     "static/media/empty-cart.png": "/mini-market/static/media/empty-cart.db905d1f4b063162f25b.png",
     "index.html": "/mini-market/index.html",
     "main.36caa97d.css.map": "/mini-market/static/css/main.36caa97d.css.map",
-    "main.0650d32c.js.map": "/mini-market/static/js/main.0650d32c.js.map",
+    "main.fe511fa2.js.map": "/mini-market/static/js/main.fe511fa2.js.map",
     "Cart.3a69a785.chunk.js.map": "/mini-market/static/js/Cart.3a69a785.chunk.js.map",
     "FullSneaker.53fe8fc5.chunk.js.map": "/mini-market/static/js/FullSneaker.53fe8fc5.chunk.js.map",
     "NotFound.078dc6aa.chunk.js.map": "/mini-market/static/js/NotFound.078dc6aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.36caa97d.css",
-    "static/js/main.0650d32c.js"
+    "static/js/main.fe511fa2.js"
   ]
 }
