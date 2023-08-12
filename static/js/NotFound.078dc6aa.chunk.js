@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmini_market=self.webpackChunkmini_market||[]).push([[187],{4949:function(e,n,r){r.r(n);r(2791);var t=r(5010),u=r(184);n.default=function(){return(0,u.jsx)(t.vr,{})}}}]);
+//# sourceMappingURL=NotFound.078dc6aa.chunk.js.map
