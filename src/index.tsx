@@ -12,7 +12,7 @@ if (rootElem) {
   const root = ReactDOM.createRoot(rootElem);
 
   root.render(
-    <BrowserRouter>
+    <BrowserRouter basename="/mini-market">
       <Provider store={store}>
         <App />
       </Provider>
