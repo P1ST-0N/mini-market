@@ -1,15 +1,15 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
-import { Pizza, SearchPizzaParams } from './types';
+import { Sneaker, SearchSneakerParams } from './types';
 import pickBy from 'lodash/pickBy';
 import identity from 'lodash/identity';
 
-export const fetchPizzas = createAsyncThunk<Pizza[], SearchPizzaParams>(
-  'pizza/fetchPizzasStatus',
+export const fetchSneakers = createAsyncThunk<Sneaker[], SearchSneakerParams>(
+  'sneaker/fetchSneakersStatus',
   async (params) => {
     const { sortBy, order, category, search, currentPage } = params;
     console.log(params, 4444);
-    const { data } = await axios.get<Pizza[]>(`https://6491fbe22f2c7ee6c2c94115.mockapi.io/shoes`, {
+    const { data } = await axios.get<Sneaker[]>(`https://6491fbe22f2c7ee6c2c94115.mockapi.io/shoes`, {
       params: pickBy(
         {
           page: currentPage,

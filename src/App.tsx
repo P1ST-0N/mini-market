@@ -12,7 +12,7 @@ const Cart = Loadable({
   loading: () => <div>Йде завантаження корзини...</div>,
 });
 
-const FullPizza = React.lazy(() => import(/* webpackChunkName: "FullPizza" */ './pages/FullPizza'));
+const FullSneaker = React.lazy(() => import(/* webpackChunkName: "FullSneaker" */ './pages/FullSneaker'));
 const NotFound = React.lazy(() => import(/* webpackChunkName: "NotFound" */ './pages/NotFound'));
 
 function App() {
@@ -29,10 +29,10 @@ function App() {
           }
         />
         <Route
-          path="pizza/:id"
+          path="sneaker/:id"
           element={
             <Suspense fallback={<div>Йде завантаження...</div>}>
-              <FullPizza />
+              <FullSneaker />
             </Suspense>
           }
         />

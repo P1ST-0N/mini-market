@@ -1,38 +1,38 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { fetchPizzas } from './asyncActions';
-import { Pizza, PizzaSliceState, Status } from './types';
+import { fetchSneakers } from './asyncActions';
+import { Sneaker, SneakerSliceState, Status } from './types';
 
-const initialState: PizzaSliceState = {
+const initialState: SneakerSliceState = {
   items: [],
   status: Status.LOADING, // loading | success | error
 };
 
-const pizzaSlice = createSlice({
-  name: 'pizza',
+const sneakerSlice = createSlice({
+  name: 'sneaker',
   initialState,
   reducers: {
-    setItems(state, action: PayloadAction<Pizza[]>) {
+    setItems(state, action: PayloadAction<Sneaker[]>) {
       state.items = action.payload;
     },
   },
   extraReducers: (builder) => {
-    builder.addCase(fetchPizzas.pending, (state, action) => {
+    builder.addCase(fetchSneakers.pending, (state, action) => {
       state.status = Status.LOADING;
       state.items = [];
     });
 
-    builder.addCase(fetchPizzas.fulfilled, (state, action) => {
+    builder.addCase(fetchSneakers.fulfilled, (state, action) => {
       state.items = action.payload;
       state.status = Status.SUCCESS;
     });
 
-    builder.addCase(fetchPizzas.rejected, (state, action) => {
+    builder.addCase(fetchSneakers.rejected, (state, action) => {
       state.status = Status.ERROR;
       state.items = [];
     });
   },
 });
 
-export const { setItems } = pizzaSlice.actions;
+export const { setItems } = sneakerSlice.actions;
 
-export default pizzaSlice.reducer;
+export default sneakerSlice.reducer;

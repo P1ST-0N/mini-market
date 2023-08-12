@@ -265,38 +265,38 @@ a {
   color: #fe5f1e;
 }
 
-.pizza-block {
+.sneaker-block {
   width: 280px;
   text-align: center;
   margin-bottom: 65px;
 }
-.pizza-block:not(:nth-of-type(4n)) {
+.sneaker-block:not(:nth-of-type(4n)) {
   margin-right: 35px;
 }
-.pizza-block__image {
+.sneaker-block__image {
   width: 250px;
 }
-.pizza-block__title {
+.sneaker-block__title {
   font-size: 20px;
   font-weight: 900;
   letter-spacing: 1%;
   margin-bottom: 20px;
 }
-.pizza-block__selector {
+.sneaker-block__selector {
   display: flex;
   background-color: #f3f3f3;
   border-radius: 10px;
   flex-direction: column;
   padding: 6px;
 }
-.pizza-block__selector ul {
+.sneaker-block__selector ul {
   display: flex;
   flex: 1;
 }
-.pizza-block__selector ul:first-of-type {
+.sneaker-block__selector ul:first-of-type {
   margin-bottom: 6px;
 }
-.pizza-block__selector ul li {
+.sneaker-block__selector ul li {
   padding: 8px;
   flex: 1;
   cursor: pointer;
@@ -308,19 +308,19 @@ a {
   user-select: none; /* Non-prefixed version, currently
              supported by Chrome, Opera and Firefox */
 }
-.pizza-block__selector ul li.active {
+.sneaker-block__selector ul li.active {
   background: #ffffff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
   border-radius: 5px;
   cursor: auto;
 }
-.pizza-block__bottom {
+.sneaker-block__bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 20px;
 }
-.pizza-block__price {
+.sneaker-block__price {
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;

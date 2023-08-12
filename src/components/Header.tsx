@@ -26,7 +26,7 @@ export const Header: React.FC = () => {
       <div className="container">
         <Link to="/">
           <div className="header__logo">
-            <img width="38" src="https://www.cdnlogo.com/logos/s/13/shoes.svg" alt="Pizza logo" />
+            <img width="38" src="https://www.cdnlogo.com/logos/s/13/shoes.svg" alt="sneakers logo" />
             <div>
               <h1>SHOES STORE</h1>
               <p>Найкраще взуття на любий вибір</p>

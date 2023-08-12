@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { useParams, useNavigate } from 'react-router-dom';
 
-const FullPizza: React.FC = () => {
+const FullSneaker: React.FC = () => {
   const [sneaker, setSneaker] = React.useState<{
     imageUrl: string;
     title: string;
@@ -14,7 +14,7 @@ const FullPizza: React.FC = () => {
   const navigate = useNavigate();
 
   React.useEffect(() => {
-    async function fetchPizza() {
+    async function fetchSneaker() {
       try {
         const { data } = await axios.get('https://6491fbe22f2c7ee6c2c94115.mockapi.io/shoes/' + id);
         setSneaker(data);
@@ -24,7 +24,7 @@ const FullPizza: React.FC = () => {
       }
     }
 
-    fetchPizza();
+    fetchSneaker();
   }, []);
 
   if (!sneaker) {
@@ -45,4 +45,4 @@ const FullPizza: React.FC = () => {
   );
 };
 
-export default FullPizza;
+export default FullSneaker;

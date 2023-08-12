@@ -1,4 +1,4 @@
-export type Pizza = {
+export type Sneaker = {
   id: string;
   title: string;
   price: number;
@@ -14,7 +14,7 @@ export enum Status {
   ERROR = 'error',
 }
 
-export type SearchPizzaParams = {
+export type SearchSneakerParams = {
   sortBy: string;
   order: string;
   category: string;
@@ -22,7 +22,7 @@ export type SearchPizzaParams = {
   currentPage: string;
 };
 
-export interface PizzaSliceState {
-  items: Pizza[];
+export interface SneakerSliceState {
+  items: Sneaker[];
   status: Status;
 }

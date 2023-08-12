@@ -46,13 +46,13 @@ export const SneakerBlock: React.FC<SneakerBlockProps> = ({
   };
 
   return (
-    <div className="pizza-block-wrapper">
-      <div className="pizza-block">
-        <Link key={id} to={`/pizza/${id}`}>
-          <img className="pizza-block__image" src={imageUrl} alt="sneakers" />
-          <h4 className="pizza-block__title">{title}</h4>
+    <div className="sneaker-block-wrapper">
+      <div className="sneaker-block">
+        <Link key={id} to={`/sneaker/${id}`}>
+          <img className="sneaker-block__image" src={imageUrl} alt="sneakers" />
+          <h4 className="sneaker-block__title">{title}</h4>
         </Link>
-        <div className="pizza-block__selector">
+        <div className="sneaker-block__selector">
           <ul>
             {types.map((typeId) => (
               <li
@@ -74,8 +74,8 @@ export const SneakerBlock: React.FC<SneakerBlockProps> = ({
             ))}
           </ul>
         </div>
-        <div className="pizza-block__bottom">
-          <div className="pizza-block__price">{price} грн</div>
+        <div className="sneaker-block__bottom">
+          <div className="sneaker-block__price">{price} грн</div>
           <button onClick={onClickAdd} className="button button--outline button--add">
             <svg
               width="12"
