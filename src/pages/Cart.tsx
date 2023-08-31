@@ -142,26 +142,43 @@ const Cart: React.FC = () => {
 
               <span>Повернутися назад</span>
             </Link>
-            <Link to="https://secure.wayforpay.com/button/b688abc335ddc" className="button pay-btn">
-            <span>Оплатити зараз WayForPay</span>
+            <Link
+              to="https://secure.wayforpay.com/button/b688abc335ddc"
+              className="button pay-btn"
+            >
+              <span>Оплатити зараз WayForPay</span>
             </Link>
-            
-<form method="POST" accept-charset="utf-8" target="_blank" action="https://www.liqpay.ua/api/3/checkout">
-  <input type="hidden" name="data" value="eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXkiLCJhbW91bnQiOiI1IiwiY3VycmVuY3kiOiJVQUgiLCJkZXNjcmlwdGlvbiI6ItCc0ZbQuSDRgtC+0LLQsNGAIiwicHVibGljX2tleSI6InNhbmRib3hfaTU4OTM3MTY1OTk1IiwibGFuZ3VhZ2UiOiJ1ayIsInNlcnZlcl91cmwiOiJodHRwczovL3Axc3QtMG4uZ2l0aHViLmlvL21pbmktbWFya2V0L2J1eXBhZ2UifQ==" />
-  <input type="hidden" name="signature" value="t/udIEypo9kV3twtd/tpHZIuMoE=" />
-  <button className="button pay-btn"
-  // style="border: none !important; display:inline-block !important;text-align: center !important;padding: 5px 24px !important;
-    // color: #fff !important; box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.12); font-size:16px !important; line-height: 1.75 !important; font-weight: 600 !important; font-family: 'Open Sans', sans-serif; cursor: pointer !important; border-radius: 8px !important;
-    // background: #fa9e0d !important;"onmouseover="this.style.opacity='0.5';" onmouseout="this.style.opacity='1';"
-    >
-    {/* <img src="https://static.liqpay.ua/buttons/logo-white.svg" 
+
+            <form
+              method="POST"
+              accept-charset="utf-8"
+              target="_blank"
+              action="https://www.liqpay.ua/api/3/checkout"
+            >
+              <input
+                type="hidden"
+                name="data"
+                value="eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXkiLCJhbW91bnQiOiI1IiwiY3VycmVuY3kiOiJVQUgiLCJkZXNjcmlwdGlvbiI6ItCc0ZbQuSDRgtC+0LLQsNGAIiwicHVibGljX2tleSI6InNhbmRib3hfaTU4OTM3MTY1OTk1IiwibGFuZ3VhZ2UiOiJ1ayIsInNlcnZlcl91cmwiOiJodHRwczovL3Axc3QtMG4uZ2l0aHViLmlvL21pbmktbWFya2V0L2J1eXBhZ2UifQ=="
+              />
+              <input
+                type="hidden"
+                name="signature"
+                value="t/udIEypo9kV3twtd/tpHZIuMoE="
+              />
+              <button
+                className="button pay-btn"
+                // style="border: none !important; display:inline-block !important;text-align: center !important;padding: 5px 24px !important;
+                // color: #fff !important; box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.12); font-size:16px !important; line-height: 1.75 !important; font-weight: 600 !important; font-family: 'Open Sans', sans-serif; cursor: pointer !important; border-radius: 8px !important;
+                // background: #fa9e0d !important;"onmouseover="this.style.opacity='0.5';" onmouseout="this.style.opacity='1';"
+              >
+                {/* <img src="https://static.liqpay.ua/buttons/logo-white.svg" 
     name="btn_text"
       style="vertical-align: middle !important;"
       /> */}
-      Оплатити зараз через LiqPay
-    {/* <span style="vertical-align:middle; !important; margin-left: 8px !important; text-transform: uppercase;">Сплатити 5 UAH</span> */}
-  </button>
-</form>
+                Оплатити зараз через LiqPay
+                {/* <span style="vertical-align:middle; !important; margin-left: 8px !important; text-transform: uppercase;">Сплатити 5 UAH</span> */}
+              </button>
+            </form>
 
             {/* <div className="button pay-btn">
               <span>Оплатити зараз</span>
