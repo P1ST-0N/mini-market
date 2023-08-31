@@ -14,7 +14,7 @@ const Cart = Loadable({
 
 const FullSneaker = React.lazy(() => import(/* webpackChunkName: "FullSneaker" */ './pages/FullSneaker'));
 const NotFound = React.lazy(() => import(/* webpackChunkName: "NotFound" */ './pages/NotFound'));
-const BuyPage = React.lazy(() => import(/* webpackChunkName: "BuyPage" */'./components/BuyPage/BuyPage'));
+const BuyPage = React.lazy(() => import(/* webpackChunkName: "BuyPage" */'./pages/BuyPage'));
 
 function App() {
   return (
@@ -46,7 +46,7 @@ function App() {
           }
         />
         <Route
-          path="/buypage"
+          path="buypage"
           element={
             <Suspense fallback={<div>Йде завантаження...</div>}>
               <BuyPage />

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './BuyPage.module.scss';
+import styles from '../components/BuyPage/BuyPage.module.scss';
 
 const BuyPage: React.FC = () => {
   return (

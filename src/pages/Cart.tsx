@@ -145,6 +145,7 @@ const Cart: React.FC = () => {
             <Link to="https://secure.wayforpay.com/button/b688abc335ddc" className="button pay-btn">
             <span>Оплатити зараз WayForPay</span>
             </Link>
+            
             {/* <div className="button pay-btn">
               <span>Оплатити зараз</span>
             </div> */}
