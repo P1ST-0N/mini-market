@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mini-market/static/css/main.36caa97d.css",
-    "main.js": "/mini-market/static/js/main.ae1ef7fc.js",
-    "Cart.js": "/mini-market/static/js/Cart.d91b23e4.chunk.js",
+    "main.js": "/mini-market/static/js/main.67dd692e.js",
+    "Cart.js": "/mini-market/static/js/Cart.2f891772.chunk.js",
     "FullSneaker.js": "/mini-market/static/js/FullSneaker.53fe8fc5.chunk.js",
     "NotFound.js": "/mini-market/static/js/NotFound.078dc6aa.chunk.js",
     "BuyPage.css": "/mini-market/static/css/BuyPage.61c02e2f.chunk.css",
@@ -10,8 +10,8 @@
     "static/media/empty-cart.png": "/mini-market/static/media/empty-cart.db905d1f4b063162f25b.png",
     "index.html": "/mini-market/index.html",
     "main.36caa97d.css.map": "/mini-market/static/css/main.36caa97d.css.map",
-    "main.ae1ef7fc.js.map": "/mini-market/static/js/main.ae1ef7fc.js.map",
-    "Cart.d91b23e4.chunk.js.map": "/mini-market/static/js/Cart.d91b23e4.chunk.js.map",
+    "main.67dd692e.js.map": "/mini-market/static/js/main.67dd692e.js.map",
+    "Cart.2f891772.chunk.js.map": "/mini-market/static/js/Cart.2f891772.chunk.js.map",
     "FullSneaker.53fe8fc5.chunk.js.map": "/mini-market/static/js/FullSneaker.53fe8fc5.chunk.js.map",
     "NotFound.078dc6aa.chunk.js.map": "/mini-market/static/js/NotFound.078dc6aa.chunk.js.map",
     "BuyPage.61c02e2f.chunk.css.map": "/mini-market/static/css/BuyPage.61c02e2f.chunk.css.map",
@@ -19,6 +19,6 @@
   },
   "entrypoints": [
     "static/css/main.36caa97d.css",
-    "static/js/main.ae1ef7fc.js"
+    "static/js/main.67dd692e.js"
   ]
 }
